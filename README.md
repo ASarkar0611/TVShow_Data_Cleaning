@@ -8,15 +8,15 @@ __Kaggle Code URL:__ https://www.kaggle.com/code/arunitasarkar/moviedatasetclean
 
 __Columns Details:__
 
-MOVIES - The movie names are given under the column
-YEAR - The year of movie or tv shows telecast for audience
-GENRE - The dataset contain many genres most valuable for recommendation system
-RATING - The audience thought about movie or tv show given
-ONE-LINE - The short description about movie or tv show for audiences first impression
-STARS - The casting of art is define under this columns which makes talk between audience 
-VOTES - The audience express their view under the columns its useful to identify impact make by art 
-RUNTIME - The duration for runing time of art
-GROSS - It gives the total amount earned in worldwide
+MOVIES - The movie names are given under the column                                
+YEAR - The year of movie or tv shows telecast for audience                           
+GENRE - The dataset contain many genres most valuable for recommendation system     
+RATING - The audience thought about movie or tv show given             
+ONE-LINE - The short description about movie or tv show for audiences first impression                                                                
+STARS - The casting of art is define under this columns which makes talk between audience                                                   
+VOTES - The audience express their view under the columns its useful to identify impact make by art                                                    
+RUNTIME - The duration for runing time of art                              
+GROSS - It gives the total amount earned in worldwide                          
 
 __File Details:__
 
@@ -34,3 +34,4 @@ __Steps Performed to Clean the Dataset:__
 6. Format each of the columns which felt necessary to clean. Formatting included removing unneccessary characters, handling NULL values, stripping white spaces or other characters and converting the datatypes of the column.
 7. Unwanted columns are dropped using drop().
 8. Sort the dataset by Rating and Gross amount in descending order.
+9. Segmentation performed using K-means with silhoette score, Calinski-Harabasz score and Davies-Bouldin score.
