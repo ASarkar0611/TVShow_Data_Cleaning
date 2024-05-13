@@ -1,7 +1,7 @@
-# __TVShow Data  Cleaning__
-Data Cleaning using Pandas library in Python.
+# __TVShow Data  Cleaning and Segmentation__
+Data Cleaning and segmentation using Pandas library in Python.
 
-This repository contains three  files - unclean CSV file, clean Excel file and the Python notebook. To emphasize, the sole purpose of the code is to have clean data which can be further taken forward. This means that there will be lot of missing values which can be updated as per intention and end goal if anyone decides to further use the cleaned dataset. Maximum of four directors and actors were considered for this purpose.
+This repository contains four  files - unclean CSV file, clean Excel file and the Python notebooks. To emphasize, the sole purpose of the code is to have clean data which can be further taken forward. This means that there will be lot of missing values which can be updated as per intention and end goal if anyone decides to further use the cleaned dataset. Maximum of four directors and actors were considered for this purpose.
 
 __Kaggle Dataset:__ https://www.kaggle.com/datasets/bharatnatrayn/movies-dataset-for-feature-extracion-prediction/data                                                                           
 __Kaggle Code URL:__ https://www.kaggle.com/code/arunitasarkar/moviedatasetcleaning
@@ -22,7 +22,7 @@ __File Details:__
 
 Unclean File - movies.csv                                                                                                                   
 Clean File - output.xls                                                                                              
-Python Notebook - MovieDatasetCleaning.ipynb                                                                                                  
+Python Notebook - MovieDatasetCleaning.ipynb, Movie Segmentation.ipynb                                                                                                  
 
 __Steps Performed to Clean the Dataset:__
 
